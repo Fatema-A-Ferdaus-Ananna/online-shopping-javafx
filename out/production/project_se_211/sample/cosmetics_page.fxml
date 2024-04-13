@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="440.0" prefWidth="630.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.CosmaticsPage">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="20.0" prefHeight="400.0" prefWidth="290.0" style="-fx-background-color: white; -fx-background-radius: 5;">
+         <children>
+            <ImageView fitHeight="330.0" fitWidth="290.0" pickOnBounds="true">
+               <image>
+                  <Image url="@blue_eyeliner.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="item_01_details_btn" layoutX="145.0" layoutY="330.0" mnemonicParsing="false" onMouseEntered="#item_01_details_viewer" onMouseExited="#item_01_details_viewer_close" prefHeight="35.0" prefWidth="145.0" style="-fx-background-color: black; -fx-border-color: white; -fx-border-radius: 5;" text="Details" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="item_01_order_btn" layoutY="365.0" mnemonicParsing="false" onMouseClicked="#order_manager_01" onMouseEntered="#item_01_order_viewer" onMouseExited="#item_01_order_viewer_close" prefHeight="35.0" prefWidth="290.0" style="-fx-background-color: black; -fx-border-color: white; -fx-border-radius: 5;" text="Add to OrderList" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <Label fx:id="item_01_price_tv" alignment="CENTER" layoutY="330.0" prefHeight="35.0" prefWidth="145.0" style="-fx-background-color: black; -fx-border-color: white; -fx-background-radius: 5;" text="Price: 1000" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="13.0" />
+               </font>
+            </Label>
+            <VBox fx:id="item_01_container" layoutX="30.0" layoutY="15.0" prefHeight="300.0" prefWidth="240.0" visible="false">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="60.0" prefWidth="240.0" style="-fx-background-color: black;" text="Weight" textAlignment="CENTER" textFill="#47e100">
+                     <font>
+                        <Font name="Comic Sans MS Bold Italic" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="60.0" prefWidth="240.0" style="-fx-background-color: black;" text="10 gm" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Comic Sans MS Bold Italic" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="60.0" prefWidth="240.0" style="-fx-background-color: black;" text="Color" textAlignment="CENTER" textFill="#47e100">
+                     <font>
+                        <Font name="Comic Sans MS Bold Italic" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="60.0" prefWidth="240.0" style="-fx-background-color: black;" text="Blue" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Comic Sans MS Bold Italic" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="60.0" prefWidth="240.0" style="-fx-background-color: black;" text="Brand" textAlignment="CENTER" textFill="#47e100">
+                     <font>
+                        <Font name="Comic Sans MS Bold Italic" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="60.0" prefWidth="240.0" style="-fx-background-color: black;" text="Rose" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Comic Sans MS Bold Italic" size="19.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="310.0" layoutY="20.0" prefHeight="400.0" prefWidth="290.0" style="-fx-background-color: white; -fx-background-radius: 5;">
+         <children>
+            <ImageView fitHeight="330.0" fitWidth="290.0" pickOnBounds="true">
+               <image>
+                  <Image url="@makeup-box.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="item_02_details_btn" layoutX="145.0" layoutY="330.0" mnemonicParsing="false" onMouseEntered="#item_02_details_viewer" onMouseExited="#item_02_details_viewer_close" prefHeight="35.0" prefWidth="145.0" style="-fx-background-color: black; -fx-border-color: white; -fx-border-radius: 5;" text="Details" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="item_02_order_btn" layoutY="365.0" mnemonicParsing="false" onMouseClicked="#order_manager_02" onMouseEntered="#item_02_order_viewer" onMouseExited="#item_02_order_viewer_close" prefHeight="35.0" prefWidth="290.0" style="-fx-background-color: black; -fx-border-color: white; -fx-border-radius: 5;" text="Add to OrderList" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <Label fx:id="item_02_price_tv" alignment="CENTER" layoutY="330.0" prefHeight="35.0" prefWidth="145.0" style="-fx-background-color: black; -fx-border-color: white; -fx-background-radius: 5;" text="Price: 1000" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="13.0" />
+               </font>
+            </Label>
+            <VBox fx:id="item_02_container" layoutX="30.0" layoutY="15.0" prefHeight="300.0" prefWidth="240.0" visible="false">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="60.0" prefWidth="240.0" style="-fx-background-color: black;" text="Weight" textAlignment="CENTER" textFill="#47e100">
+                     <font>
+                        <Font name="Comic Sans MS Bold Italic" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="60.0" prefWidth="240.0" style="-fx-background-color: black;" text="50 gm" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Comic Sans MS Bold Italic" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="60.0" prefWidth="240.0" style="-fx-background-color: black;" text="Color" textAlignment="CENTER" textFill="#47e100">
+                     <font>
+                        <Font name="Comic Sans MS Bold Italic" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="60.0" prefWidth="240.0" style="-fx-background-color: black;" text="Red" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Comic Sans MS Bold Italic" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="60.0" prefWidth="240.0" style="-fx-background-color: black;" text="Brand" textAlignment="CENTER" textFill="#47e100">
+                     <font>
+                        <Font name="Comic Sans MS Bold Italic" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="60.0" prefWidth="240.0" style="-fx-background-color: black;" text="Sunflower" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Comic Sans MS Bold Italic" size="19.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

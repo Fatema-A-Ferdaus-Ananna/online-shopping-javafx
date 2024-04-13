@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="475.0" prefWidth="630.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ProductMenu">
+   <children>
+      <Button fx:id="cloth_opt_btn" layoutX="2.0" mnemonicParsing="false" onMouseClicked="#move_to_clothes_panel" prefHeight="35.0" prefWidth="210.0" style="-fx-background-color: white; -fx-border-color: #00d40e; -fx-border-raidus: 5; -fx-border-width: 3;" text="Visit Clothes">
+         <font>
+            <Font name="Comic Sans MS Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="shoes_otp_btn" layoutX="211.0" mnemonicParsing="false" onMouseClicked="#move_to_shoes_panel" prefHeight="35.0" prefWidth="210.0" style="-fx-background-color: white; -fx-border-color: #00d40e; -fx-border-raidus: 5; -fx-border-width: 3;" text="Visit Shoes">
+         <font>
+            <Font name="Comic Sans MS Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="cosmetics_opt_btn" layoutX="421.0" mnemonicParsing="false" onMouseClicked="#move_to_cosmetics_panel" prefHeight="35.0" prefWidth="210.0" style="-fx-background-color: white; -fx-border-color: #00d40e; -fx-border-raidus: 5; -fx-border-width: 3;" text="Visit Cosmetics">
+         <font>
+            <Font name="Comic Sans MS Bold" size="17.0" />
+         </font>
+      </Button>
+      <AnchorPane fx:id="sub_viewer" layoutX="2.0" layoutY="45.0" prefHeight="440.0" prefWidth="630.0" style="-fx-background-color: black;" />
+   </children>
+</AnchorPane>

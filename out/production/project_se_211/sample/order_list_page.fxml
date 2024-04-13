@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="440.0" prefWidth="630.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.OrderListPage">
+   <children>
+      <AnchorPane prefHeight="440.0" prefWidth="305.0" style="-fx-background-color: black;">
+         <children>
+            <VBox prefHeight="440.0" prefWidth="305.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="305.0" style="-fx-background-color: white; -fx-border-color: black; -fx-border-width: 2;" text="Product ID" textAlignment="CENTER" textFill="#0a0808">
+                     <VBox.margin>
+                        <Insets top="40.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Comic Sans MS Bold Italic" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="order__product_id_01" alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="305.0" style="-fx-background-color: white; -fx-border-color: black; -fx-border-width: 2;" text="unknown" textAlignment="CENTER" textFill="#0a0808">
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="order__product_id_02" alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="305.0" style="-fx-background-color: white; -fx-border-color: black; -fx-border-width: 2;" text="unknown" textAlignment="CENTER" textFill="#0a0808">
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="order__product_id_03" alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="305.0" style="-fx-background-color: white; -fx-border-color: black; -fx-border-width: 2;" text="unknown" textAlignment="CENTER" textFill="#0a0808">
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="order__product_id_04" alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="305.0" style="-fx-background-color: white; -fx-border-color: black; -fx-border-width: 2;" text="unknown" textAlignment="CENTER" textFill="#0a0808">
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="order__product_id_05" alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="305.0" style="-fx-background-color: white; -fx-border-color: black; -fx-border-width: 2;" text="unknown" textAlignment="CENTER" textFill="#0a0808">
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="305.0" style="-fx-background-color: white; -fx-border-color: black; -fx-border-width: 2;" text="Total" textAlignment="CENTER" textFill="#00c235">
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Comic Sans MS Bold Italic" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="305.0" prefHeight="440.0" prefWidth="305.0" style="-fx-background-color: white;">
+         <children>
+            <VBox prefHeight="440.0" prefWidth="305.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="305.0" style="-fx-background-color: black; -fx-border-color: white; -fx-border-width: 2;" text="Price  (In BDT)" textAlignment="CENTER" textFill="WHITE">
+                     <VBox.margin>
+                        <Insets top="40.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="order_price_01" alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="305.0" style="-fx-background-color: black; -fx-border-color: white; -fx-border-width: 2;" text="unknown" textAlignment="CENTER" textFill="WHITE">
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="order_price_02" alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="305.0" style="-fx-background-color: black; -fx-border-color: white; -fx-border-width: 2;" text="unknown" textAlignment="CENTER" textFill="WHITE">
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="order_price_03" alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="305.0" style="-fx-background-color: black; -fx-border-color: white; -fx-border-width: 2;" text="unknown" textAlignment="CENTER" textFill="WHITE">
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="order_price_04" alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="305.0" style="-fx-background-color: black; -fx-border-color: white; -fx-border-width: 2;" text="unknown" textAlignment="CENTER" textFill="WHITE">
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="order_price_05" alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="305.0" style="-fx-background-color: black; -fx-border-color: white; -fx-border-width: 2;" text="unknown" textAlignment="CENTER" textFill="WHITE">
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="order_price_total" alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="305.0" style="-fx-background-color: black; -fx-border-color: white; -fx-border-width: 2;" text="0000" textAlignment="CENTER" textFill="#00c235">
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Comic Sans MS Bold Italic" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="380.0" prefHeight="60.0" prefWidth="630.0">
+         <children>
+            <Button layoutX="305.0" layoutY="13.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="305.0" style="-fx-background-color: #120635;" text="Payment" textFill="#ff85c8">
+               <font>
+                  <Font name="Comic Sans MS Bold Italic" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
